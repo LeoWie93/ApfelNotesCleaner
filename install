@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -d "~/.scripts" ]; then
+	mkdir ~/.scripts
+fi
+
+cp ./prepAppleNotes ~/.scripts/
+cp ./prepAppleNotes.py ~/.scripts/
